@@ -1,6 +1,7 @@
 import express from 'express'
 import helmet from 'helmet'
 import routes from './routes'
+import 'dotenv/config'
 
 const port = process.env.PORT
 const server = express()
